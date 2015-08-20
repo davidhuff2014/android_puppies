@@ -1,5 +1,5 @@
 class PuppyListScreen
-  included Gametel
+  include Gametel
 
   activity 'PuppiesActivity'
 
