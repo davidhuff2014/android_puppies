@@ -1,6 +1,6 @@
 Feature: Displaying information about the puppies available for adoption
 
-  This screen rally has no behavior. It simply displays the
+  This screen really has no behavior. It simply displays the
   list of puppies available for adoption.
 
   Background:
