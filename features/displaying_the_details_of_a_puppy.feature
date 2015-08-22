@@ -18,10 +18,10 @@ Feature: Displaying the details of a puppy
 
   Scenario: Looking into the eyes of my puppy one last time
     When  I want to learn more information about "Ruby Sue"
-    Then I can lookinto the eyes of my puppy before I make my decision
+    Then I can look into the eyes of my puppy before I make my decision
 
   Scenario: Knowing what my puppy will set me back
-    When I want to learn more informaton about "Tipsy"
+    When I want to learn more information about "Tipsy"
     Then I know that the adoption fee is "$42.00"
 
 

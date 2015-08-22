@@ -18,11 +18,7 @@ Then(/^I can see that my puppy "([^"]*)"$/) do |arg|
   pending
 end
 
-Then(/^I can lookinto the eyes of my puppy before I make my decision$/) do
-  pending
-end
-
-When(/^I want to learn more informaton about "([^"]*)"$/) do |arg|
+Then(/^I can look into the eyes of my puppy before I make my decision$/) do
   pending
 end
 
