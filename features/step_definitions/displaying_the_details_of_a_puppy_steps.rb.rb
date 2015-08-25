@@ -3,7 +3,7 @@ When(/^I want to learn more information about "([^"]*)"$/) do |name|
 end
 
 Then(/^I will be able to see "([^"]*)"s details$/) do |name|
-  expect(on(PuppyDetailsScreen).name).to eq name
+  expect(on(PuppyDetailScreen).name).to eq name
 end
 
 Then(/^I know that he is a type of "([^"]*)"$/) do |breed|
@@ -15,7 +15,7 @@ And(/^I know that he is a "([^"]*)"$/) do |gender|
 end
 
 Then(/^I can see that my puppy "([^"]*)"$/) do |description|
-  expect(on(PuppyDetailScreen).description).to eq description
+  expect(on(PuppyDetailScreen).description).to include description
 end
 
 Then(/^I can look into the eyes of my puppy before I make my decision$/) do

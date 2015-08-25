@@ -9,7 +9,7 @@ Feature: Displaying the details of a puppy
 
   Scenario: Seeing the name and breed of my puppy
     When I want to learn more information about "Sparky"
-    Then I know that he is a type of "Australian Cattle Dog (Blue Heeler)"
+    Then I know that he is a type of "Austrailian Cattle Dog (Blue Heeler)"
     And I know that he is a "Male"
 
   Scenario: Learning more about the life of my puppy
